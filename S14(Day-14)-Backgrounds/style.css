@@ -1,0 +1,70 @@
+.politiciansDiv{
+    width: 300px;
+    border: 2px solid black;
+    background-color: darkgray;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+
+
+}
+
+
+.politiciansDiv p{
+    text-align: justify;
+}
+
+
+
+.politiciansPic{
+    width: 200px;
+    height: 200px;
+}
+
+#BJPLogo{
+    background-image: url("./images/bjplogo.png");
+    background-size: 120px;
+    background-repeat: repeat;
+}
+
+#TDPLogo{
+    background-image: url("./images/tdplogo.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+}
+
+#jenasenaLogo{
+    background-image: url("./images/jenasena_logo.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+#jenasenaLogo2{
+    border: 10px dotted rebeccapurple;
+    padding: 10px;
+    background-image: url("./images/jenasena_logo.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    /* background-origin: padding-box; */
+    /* background-origin: content-box; */
+    
+}
+
+#jenasenaLogo3{
+    border: 10px dotted darkgreen;
+    padding: 10px;
+    background-image: url("./images/jenasena_logo.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-clip: padding-box;
+
+}
+
